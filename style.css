@@ -1,3 +1,54 @@
-body{
-  background-color:028090;
+body {
+background-color:#695958
+}
+
+ul {
+  list-style-type: none;
+  text-color: #6D6466;
+  background-color: #6D6466;
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  text-align: center; 
+  left: 0;
+  top: 0;
+  margin: 0;
+}
+
+li{
+  float: left;
+  text-color: white;
+}
+
+li a {
+  font-family: "Georgia";
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 50px;
+  border-style: hidden;
+  border-color: black;
+}
+li a:hover {
+  background-color: #A7A0A1;
+  color: white;
+  text-color: white;
+}
+
+h1{ /*this edits "Cooper Jumamil's Website"*/
+  text-align: center;
+}
+
+p{
+  text-align: center;
+  font-size: 50px;
+  border-style: double;
+}
+
+img {
+  margin: auto;
+  width: 50%;
+  border: 10px solid #6D6466;
+  padding: 10px;
+  margin-left: 0px;
 }
